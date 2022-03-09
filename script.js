@@ -1,22 +1,12 @@
 var container1 = document.getElementById("container1");
 var container = document.getElementById("container");
-let limit = 20;
-
-// let pagecount = 1;
-// let postcount = 1;
-
-// console.log(count)
 
 
-// const  real=(count)=>{
-    
-//   return i-1
-// }
 let count=0
 
 const getPost = (count) => {
    
-    for (var i = count + 1; i <= 20+count; i++) {
+    for (var i = count + 1; i <= 25+count; i++) {
         console.log("bottom")
                 var div = document.createElement("div");
                 div.setAttribute("class", "padd")
