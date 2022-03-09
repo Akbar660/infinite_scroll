@@ -39,7 +39,7 @@ container1.addEventListener("scroll", () => {
     // console.log(scrollHeight,scrollTop,clientHeight)
     if (scrollTop + clientHeight >= scrollHeight - 1) {
         // console.log("bottom")
-         count=count+20 
+         count=count+25
         
         Name(count)
     }
