@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    padding: 20px;
+    min-width: 300px;
+    width: 60vw;
+    margin: auto;
+border: 1px solid red;
+background-color: red;
+height: 90vh;
+border-radius: 10px;
+}
+#container1{
+    /* padding: 20px; */
+    min-width: 300px;
+    width: 60vw;
+    margin: auto;
+border: 1px solid blueviolet;
+text-align: center;
+background-color: white;
+height: 90vh;
+box-sizing: border-box;
+overflow: auto;
+border-radius: 10px;
+}
+
+.padd{
+    padding: 30px;
+}
